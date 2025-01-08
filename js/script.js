@@ -620,7 +620,7 @@
 
             sliderBgSetting();
 
-            toggleMobileNavigation();
+            //toggleMobileNavigation();
 
             smallNavFunctionality();
 

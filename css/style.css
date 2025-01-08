@@ -106,7 +106,7 @@ a:focus {
   visibility: hidden;
 }
 
-.fi:before {
+.fa:before {
   margin: 0;
 }
 
@@ -1522,13 +1522,13 @@ a:focus {
   }
 }
 
-.header-style-1 .couple-logo .fi:before, .header-style-2 .couple-logo .fi:before {
+.header-style-1 .couple-logo .fa:before, .header-style-2 .couple-logo .fa:before {
   font-size: 25px;
   font-size: 1.38889rem;
 }
 
 @media (max-width: 991px) {
-  .header-style-1 .couple-logo .fi:before, .header-style-2 .couple-logo .fi:before {
+  .header-style-1 .couple-logo .fa:before, .header-style-2 .couple-logo .fa:before {
     font-size: 20px;
     font-size: 1.11111rem;
   }
@@ -2177,20 +2177,18 @@ a:focus {
   animation: pointerMoving 1.3s infinite;
 }
 
-.site-footer .back-to-top .fi {
+.site-footer .back-to-top .fa {
   display: inline-block;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
   position: absolute;
   top: 0;
   left: 11px;
 }
 
-.site-footer .back-to-top .fi:before {
-  font-size: 27px;
-  color: #000;
-  text-shadow: 1px 1px 2px #000;
+
+.site-footer .back-to-top .fa:before {
+    font-size: 27px;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 2px var(--secondary-color);
 }
 
 @-webkit-keyframes pointerMoving {
